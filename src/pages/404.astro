@@ -1,0 +1,26 @@
+---
+import Layout from "@/layouts/Layout";
+---
+
+<Layout title="404 Not Found">
+	<main>
+		<h1> 404 </h1>
+		<p> Page Not Found </p>
+	</main>
+</Layout>
+
+<style>
+	main {
+		display: grid;
+		place-content: center;
+		min-height: 100dvh;
+		background: oklch(50.5% 0.213 27.518);
+		color: white;
+		text-align: center;
+		
+		& h1 {
+			font-size: 3.75rem;
+			font-weight: bold;
+		}
+	}
+</style>

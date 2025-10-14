@@ -1,0 +1,28 @@
+---
+import Layout from "@/layouts/Layout";
+---
+
+<Layout title="Astro">
+	<main>
+		<h1> Astro </h1>
+		<p> Plantilla predefinida </p>
+	</main>
+</Layout>
+
+<style>
+	main {
+		display: grid;
+		place-content: center;
+		min-height: 100dvh;
+		background-image: linear-gradient(to bottom left, oklch(63.7% 0.237 25.331), oklch(67.3% 0.182 276.935));
+		color: white;
+		text-align: center;
+		
+		& h1 {
+			font-size: 3.75rem;
+			font-weight: bold;
+		}
+		
+		& p { font-size: 0.875rem }
+	}
+</style>
